@@ -1,18 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Bildeslideshow</title>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Bildeslideshow</title>
 
-	<link rel="stylesheet" href="./css/reset.css">
-	<link rel="stylesheet" href="./css/style.css">
-	<link rel="stylesheet" href="./css/fonts.css">
-</head>
-<body>
-	<header>
-		<div class="header-title">Timon</div>
-	</header>
-	
-</body>
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="./css/fonts.css">
+
+		<script src="app.js" defer></script>
+	</head>
+	<body>
+		<header>
+			<div class="header-title">Timon</div>
+		</header>
+
+		<div class="slideshow_container">
+			<div class="slideshow-slides">
+
+				<figure class="slideshow-slide slideshow_slide-visible">
+					<img src="./assets/Timon/timon1.jpg" alt="" class="slideshow-img">
+					<figcaption class="slideshow-caption">Timon som sover</figcaption>
+				</figure>
+
+				<figure class="slideshow-slide">
+					<img src="./assets/Timon/timon2.jpg" alt="" class="slideshow-img">
+					<figcaption class="slideshow-caption">Timon i hagen</figcaption>
+				</figure>
+
+				<figure class="slideshow-slide">
+					<img src="./assets/Timon/timon3.jpg" alt="" class="slideshow-img">
+					<figcaption class="slideshow-caption">Timon i senga</figcaption>
+				</figure>
+
+				<figure class="slideshow-slide">
+					<img src="./assets/Timon/timon4.jpg" alt="" class="slideshow-img">
+					<figcaption class="slideshow-caption">Timen på kattetreet</figcaption>
+				</figure>
+
+				<figure class="slideshow-slide">
+					<img src="./assets/Timon/timon5.jpg" alt="" class="slideshow-img">
+					<figcaption class="slideshow-caption">Timon som sover</figcaption>
+				</figure>
+
+				<figure class="slideshow-slide">
+					<img src="./assets/Timon/timon6.jpg" alt="" class="slideshow-img">
+					<figcaption class="slideshow-caption">Timon i vasken</figcaption>
+				</figure>
+
+				<figure class="slideshow-slide">
+					<img src="./assets/Timon/timon7.jpg" alt="" class="slideshow-img">
+					<figcaption class="slideshow-caption">Timon i stolen</figcaption>
+				</figure>
+
+				<figure class="slideshow-slide">
+					<img src="./assets/Timon/timon8.jpg" alt="" class="slideshow-img">
+					<figcaption class="slideshow-caption">Timon med utsikt</figcaption>
+				</figure>
+
+				<figure class="slideshow-slide">
+					<img src="./assets/Timon/timon9.jpg" alt="" class="slideshow-img">
+					<figcaption class="slideshow-caption">Timon i døra</figcaption>
+				</figure>
+
+				<figure class="slideshow-slide">
+					<img src="./assets/Timon/timon11.jpg" alt="" class="slideshow-img">
+					<figcaption class="slideshow-caption">Timon panneflat</figcaption>
+				</figure>
+
+			</div>
+
+			<div class="slideshow-controls">
+				<button class="slideshow-controls_button" data-direction="previous">
+					<img class="img_arrows" src="./assets/Polygon 2.svg" alt="">
+				</button>
+				<button class="slideshow-controls_button" data-direction="next">
+					<img class="img_arrows" src="./assets/Polygon right.svg" alt="">
+				</button>
+			</div>
+
+			<div class="slideshow-dots">
+				<button class="slideshow-dot" data-index="0"></button>
+				<button class="slideshow-dot" data-index="1"></button>
+				<button class="slideshow-dot" data-index="2"></button>
+				<button class="slideshow-dot" data-index="3"></button>
+				<button class="slideshow-dot" data-index="4"></button>
+				<button class="slideshow-dot" data-index="5"></button>
+				<button class="slideshow-dot" data-index="6"></button>
+				<button class="slideshow-dot" data-index="7"></button>
+				<button class="slideshow-dot" data-index="8"></button>
+				<button class="slideshow-dot" data-index="9"></button>
+			</div>
+		</div>
+
+	</body>
 </html>
